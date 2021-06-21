@@ -31,7 +31,7 @@ BUFFER_SIZE = 60
 FRAMES_TO_SKIP = 6
 
 #------------------------ IOT-HUB INITIALIZATION -------------------- #
-RECIEVE_C2D_MESSAGES = False
+RECIEVE_C2D_MESSAGES = True
 CONNECTION_STRING = "HostName=IoTHWLabs.azure-devices.net;DeviceId=edge-test-device;SharedAccessKey=yOlOAk/OBHLX3Ty2cwGxJ1+KxGxc+uTqKBMTgqotorg="
 SEND_COUNTER_TO_IOT_HUB = True
 SEND_AFTER_FRAMES = 30*1 # After 4 seconds
