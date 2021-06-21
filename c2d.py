@@ -38,4 +38,4 @@ def recieve_from_cloud():
         time.sleep(1000)
 
 
-iothub_send_video_source("0")
+iothub_send_video_source("http://192.168.2.131:8080/video")
